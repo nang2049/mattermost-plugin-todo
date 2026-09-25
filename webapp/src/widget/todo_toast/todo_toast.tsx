@@ -22,7 +22,7 @@ type Props = {
     className?: string,
 }
 
-function TodoToast(props: Props): JSX.Element {
+function TodoToast(props: Props): React.JSX.Element {
     const {close, content} = props;
     const nodeRef = useRef<HTMLDivElement>(null);
 
